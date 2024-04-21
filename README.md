@@ -13,4 +13,13 @@ As it was mentioned earlier the proper type of Neural Network for the goal of th
 
 The model will be created in Python language. 
 
-In the first step we should create a python file for creating dataset for our CNN. Dataset include different stages images, that are stages Wake, NREM (1, 2, 3, 4) and REM. These stages will be provided by different signals SC from the [*Sleep-EDF Database Expanded*](https://www.physionet.org/content/sleep-edfx/1.0.0/) PhysioNet dataset.
+### Creating dataset
+
+In the first step we should create a python file for creating dataset for our CNN. Dataset include different stages images, that are stages Wake, NREM (1, 2, 3, 4) and REM. These stages will be provided by different signals SC from the [*Sleep-EDF Database Expanded*](https://www.physionet.org/content/sleep-edfx/1.0.0/) PhysioNet dataset. This file is called **create_dataset.ipynb** which was created in Jupytr Lab.
+
+Description of the functions:
+
+- file_keeper(psg_file, hypnogram_file) - get as the input two files: PSG and Hypnogram. As the output function gives raw data and raw annotations.
+- all_sleep_stages(annotations) - get as the annotations. As the output function gives all sleep stages of the PSG signal file.
+
+
