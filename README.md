@@ -3,7 +3,11 @@ Recognition sleep stages based on PSG (polysomnography) signals using machine le
 
 ## Idea
 
-The idea of this work is an attempt of creating such automated system that can classify a sleep stage based on a part of the PSG signal. As an input dataset for training should contain different signals such as EEG, EMG, EOG and also hypnogram with sleep stages. The hypnogram can help model to understand in which part of the signals we have for example NREM or REM stages.
+The idea of this work is an attempt of creating such automated system that can classify a sleep stage based on a part of the PSG signal. As an input dataset for training should contain different signals such as EEG, EMG, EOG and also hypnogram with sleep stages. The hypnogram can help model to understand in which part of the signals we have for example NREM or REM stages. On the image below, you can see example of the hypnogram
+
+<p align = "center">
+  <img src ="/images/hypnogram.png" width="800" >
+</p>
 
 As the result I should get a model  based on one of the various neural networks. Putting for example a 30 seconds duration signals into this model, on the output we can get a sleep stage (for example NREM, REM, N1, etc.). So in the end we can preprocess a whole PSG data during one night and get a predicted hypnogram.
 
