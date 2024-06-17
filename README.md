@@ -31,3 +31,25 @@ Description of the functions:
 - all_sleep_stages(annotations) - get as the annotations. As the output function gives all sleep stages of the PSG signal file.
 
 
+# Repositorium tree
+
+```bash
+│   README.md
+│
+├───images
+│       hypnogram.png
+│
+├───nn_images
+│       cnn_predict.ipynb
+│       cnn_prepare_dataset.ipynb
+│       cnn_train.ipynb
+│       exit_code.ipynb
+│
+└───nn_signals
+        exit_code.ipynb
+        feature_extraction_process.ipynb
+        predicting_dataset.ipynb
+        preparing_dataset.ipynb
+        single_main_file.ipynb
+        training_process.ipynb
+```
