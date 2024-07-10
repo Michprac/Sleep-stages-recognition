@@ -103,6 +103,12 @@ In case of the CNN model, training process can take a lot of time. So Cloud comp
   <img src ="/images/studio_azure_ml_example.png" width="800" >
 </p>
 
+In the studio, a computing virtual machine "Standard_F16s_v2" was used with the following characteristics:
+- Number of cores: 16
+- Size of temporary operating memory (RAM): 32 GB
+- Size of permanent memory: 128 GB
+- Type of computing unit: CPU
+
 # Summary
 
 In the summary I can say that the MLP network method is much more better than CNN. The effectiveness of the CNN model is low and amounts to approximately 32.81%. The effectiveness of the MLP model is high and amounts to approximately 75.56%. However, it is still not so accurate enough to completely replace a specialist.
