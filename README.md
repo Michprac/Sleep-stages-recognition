@@ -1,5 +1,5 @@
 # Sleep-stages-recognition
-Recognition sleep stages based on PSG (polysomnography) signals using machine learning method. The reason of creating this project was my future Master degree thesis.
+Recognition of the sleep stages based on PSG (polysomnography) signals using machine learning methods. The reason of creating this project was my future Master degree thesis.
 
 ## Idea
 
