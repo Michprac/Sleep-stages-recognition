@@ -119,6 +119,14 @@ Also some tests have been done on how different combinations of PSG channels aff
   <img src ="/images/channels_comparison.png" width="800" >
 </p>
 
+# Future improvements
+
+In the future some functions in this library can be modified. For example, remove double generating of the test dataset.
+
+Also a key element that can be changed is architectures of the NN models. In this case, I have used very simple elemenets, like Dense layer, CNN layer.
+
+As an additional feature for this project, GUI can be created. Graphical interface can help to control different activities of the training process.
+
 # Repositorium tree
 
 ```bash
